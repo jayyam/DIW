@@ -1,0 +1,20 @@
+p {
+    color: blue; 
+    text-align: center;/*1. Utiliza el selector de elemento para que los párrafos aparezcan centrados y de color azul.*/
+    }
+    
+#p1 { 
+    color: red;
+    text-align: center; /*2. Utiliza el selector de identificador para que un párrafo concreto del HTML aparezca de color rojo.*/   
+    } 
+.blueh1 {
+    color: blue; /*3. Crea una clase en el documento HTML para que puedas dar color azul a todos los H1 que lo lleven.*/
+    }
+    
+h1, h2
+    {
+    text-align: center;/*4. Agupa selectores de clase para que todos los H1 y H2 aparezcan centrados.*/
+    }
+
+ /*5. Añade comentarios explicativos a tu documento CSS que explique qué hace cada sentencia.*/   
+
