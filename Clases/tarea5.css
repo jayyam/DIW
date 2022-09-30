@@ -1,0 +1,96 @@
+body
+{
+    //background-image: url(imag.jpg);
+}
+.div1
+    {
+    border-style: dotted;
+    color: rgb(4, 2, 155);
+    }
+#A
+{
+    text-decoration: overline;
+}
+.div2
+{
+    border-style: dashed;
+    color: red;
+}
+#B
+{
+    text-decoration: line-through;
+}
+.div3
+{
+    border-style: solid;
+    color: rgb(97, 235, 143)
+}
+#C
+{
+    text-decoration: underline;
+}
+.div4
+{
+    border-style: double;
+    color: rgba(0, 255, 42, 0.219)
+}
+#D
+{
+    font-family: "Times New Roman";
+    text-decoration: overline;
+}
+.div5
+{
+    border-style: groove;
+    color: rgb(0, 217, 255)
+}
+#E
+{
+    text-decoration: underline;
+}
+.div6
+{
+    border-style: ridge;
+    color: rgb(4, 0, 255)
+}
+#F
+{
+    text-decoration: line-through;
+}
+.div7
+{
+    border-style: inset;
+    color: rgba(195, 0, 255, 0.342)
+}
+#G
+{
+    font-family: "Arial";
+    text-decoration: unset;
+}
+.div8
+{
+    border-style: outset;
+    color: rgba(255, 251, 0, 0.856)
+}
+#H
+{
+    text-decoration: overline;
+}
+.div9
+{
+    border-style: dotted dashed solid double;
+    color: rgba(134, 19, 54, 0.486)
+}
+#I
+{
+    text-decoration: underline;
+}
+.div10
+{
+    border-style: none;
+    color: rgba(204, 0, 255, 0.438)
+}
+#J
+{
+    text-decoration: line-through;
+}
