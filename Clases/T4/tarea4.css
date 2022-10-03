@@ -1,0 +1,15 @@
+.lore
+{
+    width: 160px;
+    background-color: rgba(253, 1, 240, 0.87);
+    padding:10px;
+    border: 20px solid #105100;
+    margin: 0;
+}
+
+.p2
+{
+    border-style: dotted;
+    border-width: 30px;
+    border-color: rgb(253, 1, 1);
+}
