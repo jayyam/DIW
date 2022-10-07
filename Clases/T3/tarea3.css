@@ -1,54 +1,64 @@
 body
 {
-    background-image: url(../img/cthulu.jpg);
+    background: #ffffff url(../img/imag.jpg) no-repeat center;
 }
 #A
 {
     border-style: dotted;
+    text-align: center;
     color: rgba(255, 0, 0, 0.294);
 }
 #B
 {
     border-style: dashed;
+    text-align: center;
     color: red;
 }
 #C
 {
     border-style: solid;
+    text-align: center;
     color: rgb(97, 235, 143)
 }
 #D
 {
     border-style: double;
+    text-align: center;
     color: rgba(0, 255, 42, 0.219)
 }
 #E
 {
     border-style: groove;
+    text-align: center;
     color: rgb(0, 217, 255)
 }
 #F
 {
     border-style: ridge;
+    text-align: center;
     color: rgb(4, 0, 255)
 }
 #G
 {
     border-style: inset;
+    text-align: center;
     color: rgba(195, 0, 255, 0.342)
 }
 #H
 {
     border-style: outset;
+    text-align: center;
     color: rgba(255, 251, 0, 0.856)
 }
 #I
 {
     border-style: dotted dashed solid double;
+    text-align: center;
     color: rgba(134, 19, 54, 0.486)
 }
 #J
 {
     border-style: none;
+    text-align: center;
     color: rgba(204, 0, 255, 0.438)
 }

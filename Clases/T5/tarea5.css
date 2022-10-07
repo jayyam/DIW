@@ -1,33 +1,44 @@
 body
 {
-    background-image: url(../img/imag.jpg);
+    background-image: url(../img/ahsok.jpg);
 }
+a:link {color: red; text-decoration: underline;}
+a:visited {color: green; text-decoration: underline;}
+a:hover {color: hotpink; text-decoration: underline;}
+a:active {color: blue; text-decoration: underline;}
+
 .div1
     {
     border-style: dotted;
-    color: rgb(4, 2, 155);
+    color: rgb(213, 198, 15);
     }
 #A
 {
     text-decoration: overline;
+    text-align: center;
+    text-shadow: 3px 2px rgb(4, 2, 155);
 }
 .div2
 {
     border-style: dashed;
-    color: red;
+    color: #0e0e0e;
 }
 #B
 {
     text-decoration: line-through;
+    text-align: center;
+    text-shadow: 3px 2px red;
 }
 .div3
 {
     border-style: solid;
-    color: rgb(97, 235, 143)
+    color: rgb(97, 235, 143);
 }
 #C
 {
     text-decoration: underline;
+    text-align: center;
+    text-shadow: 3px 2px rgb(4, 2, 155);
 }
 .div4
 {
@@ -38,6 +49,8 @@ body
 {
     font-family: "Times New Roman";
     text-decoration: overline;
+    text-align: center;
+    text-shadow: 3px 2px rgba(33, 153, 203, 0.53);
 }
 .div5
 {
@@ -47,6 +60,8 @@ body
 #E
 {
     text-decoration: underline;
+    text-align: center;
+    text-shadow: 3px 2px rgb(214, 97, 235);
 }
 .div6
 {
@@ -56,6 +71,8 @@ body
 #F
 {
     text-decoration: line-through;
+    text-align: center;
+    text-shadow: 3px 2px rgb(138, 19, 19);
 }
 .div7
 {
@@ -66,6 +83,8 @@ body
 {
     font-family: "Arial";
     text-decoration: unset;
+    text-align: center;
+    text-shadow: 3px 2px rgba(205, 218, 220, 0.53);
 }
 .div8
 {
@@ -75,6 +94,8 @@ body
 #H
 {
     text-decoration: overline;
+    text-align: center;
+    text-shadow: 3px 2px rgba(97, 141, 160, 0.53);
 }
 .div9
 {
@@ -84,13 +105,17 @@ body
 #I
 {
     text-decoration: underline;
+    text-align: center;
+    text-shadow: 3px 2px rgb(16, 81, 0);
 }
 .div10
 {
     border-style: none;
-    color: rgba(204, 0, 255, 0.438)
+    color: rgb(255, 255, 255)
 }
 #J
 {
     text-decoration: line-through;
+    text-align: center;
+    text-shadow: 3px 2px rgba(253, 1, 240, 0.87);
 }
