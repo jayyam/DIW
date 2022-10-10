@@ -1,27 +1,55 @@
 body
 {
-    background-image: url(../img/ahsok.jpg);
+    background-image: url(negrpar.jpg);
+    background-repeat: repeat;
 }
 a:link {color: red; text-decoration: underline;}
 a:visited {color: green; text-decoration: underline;}
 a:hover {color: hotpink; text-decoration: underline;}
 a:active {color: blue; text-decoration: underline;}
 
+p {
+    width: 300px;
+    padding: 25px;
+    text-align: right;
+    box-sizing: border-box;
+    }
+
+.buttsup1
+{
+    background-color: #04029b;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttsup1:hover
+{
+    background-color: #e60808;
+    color: white;
+}
+
 .div1
     {
+    text-align: center;
     border-style: dotted;
     color: rgb(213, 198, 15);
+    font-size: 25px;
     }
 #A
 {
     text-decoration: overline;
-    text-align: center;
     text-shadow: 3px 2px rgb(4, 2, 155);
 }
 .div2
 {
+    text-align: center;
     border-style: dashed;
-    color: #0e0e0e;
+    color: #ffffff;
+    font-size: 25px;
 }
 #B
 {
@@ -31,8 +59,10 @@ a:active {color: blue; text-decoration: underline;}
 }
 .div3
 {
+    text-align: center;
     border-style: solid;
     color: rgb(97, 235, 143);
+    font-size: 25px;
 }
 #C
 {
@@ -42,8 +72,10 @@ a:active {color: blue; text-decoration: underline;}
 }
 .div4
 {
+    text-align: center;
     border-style: double;
-    color: rgba(0, 255, 42, 0.219)
+    color: rgba(0, 255, 42, 0.219);
+    font-size: 25px;
 }
 #D
 {
@@ -54,8 +86,10 @@ a:active {color: blue; text-decoration: underline;}
 }
 .div5
 {
+    text-align: center;
     border-style: groove;
-    color: rgb(0, 217, 255)
+    color: rgb(0, 217, 255);
+    font-size: 25px;
 }
 #E
 {
@@ -65,8 +99,10 @@ a:active {color: blue; text-decoration: underline;}
 }
 .div6
 {
+    text-align: center;
     border-style: ridge;
-    color: rgb(4, 0, 255)
+    color: rgb(4, 0, 255);
+    font-size: 25px;
 }
 #F
 {
@@ -76,8 +112,10 @@ a:active {color: blue; text-decoration: underline;}
 }
 .div7
 {
+    text-align: center;
     border-style: inset;
-    color: rgba(195, 0, 255, 0.342)
+    color: rgba(195, 0, 255, 0.342);
+    font-size: 25px;
 }
 #G
 {
@@ -88,8 +126,10 @@ a:active {color: blue; text-decoration: underline;}
 }
 .div8
 {
+    text-align: center;
     border-style: outset;
-    color: rgba(255, 251, 0, 0.856)
+    color: rgba(255, 251, 0, 0.856);
+    font-size: 25px;
 }
 #H
 {
@@ -99,8 +139,10 @@ a:active {color: blue; text-decoration: underline;}
 }
 .div9
 {
+    text-align: center;
     border-style: dotted dashed solid double;
-    color: rgba(134, 19, 54, 0.486)
+    color: rgba(134, 19, 54, 0.486);
+    font-size: 25px;
 }
 #I
 {
@@ -110,12 +152,63 @@ a:active {color: blue; text-decoration: underline;}
 }
 .div10
 {
+    text-align: center;
     border-style: none;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    font-size: 25px;
 }
 #J
 {
     text-decoration: line-through;
     text-align: center;
     text-shadow: 3px 2px rgba(253, 1, 240, 0.87);
+
+}
+.buttsdown1
+{
+    background-color: #e60808;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttsdown1:hover
+{
+    background-color: #04029b;
+    color: white;
+}
+.buttsdown2
+{
+    background-color: #105100;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttsdown2
+{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.buttsdown3
+{
+    background-color: #d5c60f;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttsdown3:hover
+{
+    background-color: #4CAF50;
+    color: white;
 }

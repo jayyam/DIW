@@ -1,12 +1,14 @@
 .stil1
 {
     background: #a8ff99;
+    background-image: url("textur.jpg");
 }
 ul.a
 {
     list-style-type: none;
     padding: 5px;
     margin-left: 35px;
+    color: #04029b;
 }
 .stil2
 {
@@ -21,12 +23,14 @@ ul.b
 .stil3
  {
      background: #d5c60f;
+    background-image: url("negrpar1.jpg");
  }
 ol.c
 {
     list-style-type: square;
     padding: 5px;
     margin-left: 35px;
+    color: #a8ff99;
 }
 .stil4
 {
@@ -38,8 +42,8 @@ ul.d
     padding: 10px;
     margin-left: 35px;
 }
-#A{margin: 15px; padding: 15px; border-style: dotted; font-family: "Times New Roman";}
-#B{margin: 15px; padding: 15px; border-style: dashed; font-family: "Arial"}
-#C{margin: 15px; padding: 15px; border-style: double; font-family:"DejaVu Serif"}
-#D{margin: 15px; padding: 15px; border-style: groove; font-family:"Calibri"}
-#E{margin: 15px; padding: 15px; border-style: ridge;font-family: "Noto Sans"}
+#A{margin: 15px; padding: 15px; border-style: dotted; border-color: #dc3545; font-family: "Times New Roman";}
+#B{margin: 15px; padding: 15px; border-style: dashed; border-color: #ffffff; font-family: "Arial"}
+#C{margin: 15px; padding: 15px; border-style: double; border-color: rgba(253, 1, 240, 0.87); font-family:"DejaVu Serif"}
+#D{margin: 15px; padding: 15px; border-style: groove; border-color: #ffffff;font-family:"Calibri"}
+#E{margin: 15px; padding: 15px; border-style: ridge; border-color: #e34308;font-family: "Noto Sans"}
