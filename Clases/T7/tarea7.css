@@ -1,0 +1,60 @@
+
+body
+{
+    background: url("../img/cthulu.jpg")no-repeat right bottom, url("brick.jpg");
+}
+
+#p1
+{
+
+    width: 300px;
+    text-align: center;
+}
+.divA
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    word-break: break-all;
+    background-color: rgb(238, 255, 0);opacity:0.6;
+    max-width: 650px;
+    box-shadow: 15px 15px rgba(253, 1, 177, 0.87);
+}
+#p2
+{
+    width: 300px;
+    text-align: center;
+}
+.divB
+{
+    margin: 125px;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color:rgb(0,255,0);opacity:0.6;
+    max-width: 650px;
+    box-shadow: 30px 30px 15px #e60808;
+}
+#p3
+{
+    width: 300px;
+    text-align: center;
+}
+p3:hover
+{
+    background-image: url("tronc.jpg");
+}
+.divC
+{
+    margin: 25px;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);opacity:0.6;
+    max-width: 650px;
+    box-shadow: 30px 30px 30px 30px #04029b;
+}
