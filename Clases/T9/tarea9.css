@@ -1,9 +1,86 @@
+body
+{
+    background-color: gray;
+}
+h1
+{
+    text-align: center;
+}
 .div9a
 {
-    background-color: red;
+    background-color: #ae7449;
     padding: 0.2rem;
     resize: both;
     overflow: auto;
-    max-width: 1000px;
-    max-height: 900px;
+    position: relative;
+    top: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    max-width: 1650px;
+    max-height: 980px;
+    text-align: center;
+}
+.div9b
+{
+    background-color: #f4d863;
+    padding: 0.2rem;
+    resize: both;
+    overflow: auto;
+    position: relative;
+    top: 30px;
+    left: 120px;
+    right: 90px;
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 500px;
+    max-height: 300px;
+}
+.div9c
+{
+    background-color: #00ccff;
+    padding: 0.2rem;
+    resize: both;
+    overflow: auto;
+    position: relative;
+    left: 1200px;
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: 500px;
+    max-height: 300px;
+}
+.div9d
+{
+    background-color: #19bf02;
+    padding: 0.2rem;
+    resize: both;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    overflow: auto;
+    max-width: 500px;
+    max-height: 300px;
+}
+.div9e
+{
+    background-color: #d881ed;
+    padding: 0.2rem;
+    resize: both;
+    overflow: auto;
+    position: relative;
+    bottom: 10px;
+    left: 900px;
+    max-width: 500px;
+    max-height: 300px;
+}
+.div9f
+{
+    background-color: #e25656;
+    padding: 0.2rem;
+    resize: both;
+    overflow: auto;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    max-width: 500px;
+    max-height: 300px;
 }
