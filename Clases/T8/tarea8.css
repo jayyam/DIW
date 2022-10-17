@@ -1,0 +1,47 @@
+.div8a
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
+span.a8
+{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid #ff0044;
+    background-color: #00ffcc;
+}
+.div8b
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
+span.b8 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #eeff00;
+    background-color: #5500ff;
+}
+.div8c
+{
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 10px;
+}
+span.c8
+{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #003cff;
+    background-color: #7bff00;
+}

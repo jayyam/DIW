@@ -1,0 +1,9 @@
+.div9a
+{
+    background-color: red;
+    padding: 0.2rem;
+    resize: both;
+    overflow: auto;
+    max-width: 1000px;
+    max-height: 900px;
+}
