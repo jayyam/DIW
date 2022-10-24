@@ -1,0 +1,18 @@
+table
+{
+    color: black;
+    border: 2px solid;
+    width: 50%;
+}
+th
+{
+
+    border: 2px solid;
+    border-color: forestgreen;
+    background-color: #eeff00;
+    color: black;
+}
+td
+{
+    border-bottom: 1px solid #ddd;
+}
