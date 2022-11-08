@@ -4,10 +4,9 @@
     height: 100px;
     background-color: red;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 50px;
     border-color: #19bf02;
     animation-name: Aan;
-    transform: translateX(100px);
     animation-duration: 4s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
@@ -16,19 +15,59 @@
 @keyframes Aan {
     from {
         background-color: red;
+        transform: translateX(100px);
     }
     to {
         background-color: yellow;
         border-style: solid;
-        border-radius: 45px;
+        border-radius: 75px;
         border-color: #003cff;
         width: 100px;
         height: 100px;
         transition: width 2s, height 2s;
         transform: translateX(200px);
+        animation-duration: 4s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
     }
 }
 .divBan
 {
+    width: 100px;
+    height: 100px;
+    background-color: #005eff;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: #ff0011;
+    animation-name: Ban;
+    transform: translateY(100px);
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
 
+@keyframes Ban {
+    from {
+        background-color: #003cff;
+        transform: translateY(100px);
+    }
+    to {
+        background-color: #00ffc8;
+        border-style: solid;
+        border-radius: 125px;
+        border-color: rgb(244, 181, 34);
+        width: 100px;
+        height: 100px;
+        transition: width 2s, height 2s;
+        transform: translateY(600px);
+        animation-duration: 4s;
+        animation-delay: 2s;
+        transition: width 2s, height 2s, transform 2s;
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+        /*transform: translateY(100px);
+        transform: translateY(100px);*/
+
+    }
 }
