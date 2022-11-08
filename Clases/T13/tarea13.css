@@ -1,0 +1,34 @@
+.divAan
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #19bf02;
+    animation-name: Aan;
+    transform: translateX(100px);
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Aan {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: yellow;
+        border-style: solid;
+        border-radius: 45px;
+        border-color: #003cff;
+        width: 100px;
+        height: 100px;
+        transition: width 2s, height 2s;
+        transform: translateX(200px);
+    }
+}
+.divBan
+{
+
+}
