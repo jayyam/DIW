@@ -1,0 +1,54 @@
+@font-face
+{
+    font-family: fredoka;
+    src: url('fredoka-one.woff') format('woff');
+}
+div.squel
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #23ab88;
+    border-image-source: url(cuadros.png);
+    border-image-repeat: repeat;
+}
+div.p1
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    border-top: 5px solid rgb(16, 81, 0);
+    border-bottom: 5px solid rgb(16, 81, 0);
+}
+h1
+{
+    text-align: center;
+    text-shadow: 5px -5px 5px #ffffff;
+}
+div.par1
+{
+    text-align: left;
+}
+div.p2
+{
+    border-top: 5px solid rgb(16, 81, 0);
+    border-bottom: 5px solid rgb(16, 81, 0);
+}
+div.p3 p
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 5px solid rgb(255, 255, 255);
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+div.p3
+{
+    border-bottom: 10px solid rgb(8, 8, 8);
+}
+div.footer
+{
+    border-top: 10px solid rgb(255, 255, 255);
+    text-align: center;
+}
