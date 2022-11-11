@@ -1,0 +1,68 @@
+div
+{
+    -ms-transform: translate(50px, 100px); /* IE 9 */
+    -webkit-transform: translate(50px, 100px); /* Safari */
+    transform: translate(50px, 100px);
+}
+
+
+div
+{
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+}
+div
+{
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    -webkit-transform: rotate(-20deg); /* Safari */
+    transform: rotate(-20deg);
+}
+
+
+div
+{
+    -ms-transform: scale(2, 3); /* IE 9 */
+    -webkit-transform: scale(2, 3); /* Safari */
+    transform: scale(2, 3);
+}
+div
+{
+    -ms-transform: scale(0.5, 0.5); /* IE 9 */
+    -webkit-transform: scale(0.5, 0.5); /* Safari */
+    transform: scale(0.5, 0.5);
+}
+
+
+div
+{
+    -ms-transform: skewX(20deg); /* IE 9 */
+    -webkit-transform: skewX(20deg); /* Safari */
+    transform: skewX(20deg);
+}
+div
+{
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari */
+    transform: skewY(20deg);
+}
+div
+{
+    -ms-transform: skew(20deg, 10deg); /* IE 9 */
+    -webkit-transform: skew(20deg, 10deg); /* Safari */
+    transform: skew(20deg, 10deg);
+}
+div
+{
+    -ms-transform: skew(20deg); /* IE 9 */
+    -webkit-transform: skew(20deg); /* Safari */
+    transform: skew(20deg);
+}
+
+
+div
+ {
+     -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+     -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+     transform: matrix(1, -0.3, 0, 1, 0, 0);
+ }

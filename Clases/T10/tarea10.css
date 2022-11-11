@@ -1,16 +1,21 @@
-div.staticA
+div.grid-itemA
 {
+    display: grid;
     position: static;
     border: 3px solid #73AD21;
 }
-div.relativeB
+div.grid-itemB
 {
+    display: grid;
     position: relative;
     left: 150px;
     border: 8px solid #d661eb;
+    width: 800px;
+    height: 600px;
 }
-div.fixedC
+div.grid-itemC
 {
+    display: grid;
     position: fixed;
     top: 0;
     right: 0;
@@ -18,15 +23,17 @@ div.fixedC
     height: 200px;
     border: 3px solid #eeff00;
 }
-div.stickyE
+div.grid-itemE
 {
+    display: grid;
     position: sticky;
     top: 0;
-    background-color: #e60808;
+    background-color: rgba(230, 8, 8, 0.31);
     border: 8px solid rgba(205, 218, 220, 0.53);
 }
-div.absoluteD
+div.grid-itemD
 {
+    display: grid;
     position: absolute;
     width: 400px;
     height: 200px;
