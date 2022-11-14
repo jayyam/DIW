@@ -1,1 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");/*# sourceMappingURL=style.css.map */
+/**@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"');*/
+header {
+  text-align: center;
+  size: 1400px;
+  margin: 0 auto;
+}
+
+img {
+  float: left;
+}
+
+nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+body {
+  size: 1400px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+footer {
+  float: left;
+}
+
+footer div a p {
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
