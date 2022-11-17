@@ -1,23 +1,42 @@
-/**@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"');*/
+font-face
+{
+  font-family: Nunito;
+  src: url("Nunito-Light.ttf") format('ttf');
+}
 header {
+
   text-align: center;
   size: 1400px;
-  margin: 0 auto;
-}
+  background-color: #ececec;
 
-img {
+}
+img
+{
   float: left;
+}
+h1 {
+  text-align: center;
+  font-weight: 700;
+  background-color: #ececec;
 }
 
 nav {
   display: block;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
+  background-color: #ececec;
+  justify-items: center;
 }
 
-ul li {
+ul
+{
+  align-content: center;
+}
+
+li {
+  align-content: center;
   float: left;
+
 }
 
 body {
@@ -27,9 +46,7 @@ body {
   font-size: 1rem;
 }
 
-h1 {
-  font-weight: 700;
-}
+
 
 h2 {
   font-weight: 700;
@@ -39,10 +56,16 @@ h3 {
   font-weight: 700;
 }
 
-footer {
+footer
+{
   float: left;
+  background-color: #ececec;
+  margin-top: 400px;
 }
 
-footer div a p {
+footer div a p
+{
+  size: 1400px;
   display: inline-block;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
