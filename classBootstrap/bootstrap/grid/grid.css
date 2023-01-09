@@ -12,12 +12,9 @@
     color: blue;
     background-color: lightslategrey;
 }
-.longparr
+.a, .b, .c
 {
     color: white;
-}
-#a,#b,#c
-{
     background-color: blue;
 }
 .footer
